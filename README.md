@@ -7,6 +7,7 @@ Hi I'm **Vishywashy**. A developer who is interested in the field of AI and robo
 ## Projects
 
 The projects I've built are:
+
 &nbsp;&nbsp;&nbsp;&nbsp;**Workspace-Multi-Agent-System**: This is where I created my own ```pytorch``` ML model with 3 neural networks that used ```ReLU``` which was piecewise linear. I chose to use ```ReLU``` because it was stiff however, unlike linear regression was able to learn complex patterns. I trained that ML model with the data generated from my own data generation pipeline I built. Esssentially I used a small 1.5 billion parameter Qwen model to generate prompts that the user could potentially ask. I then tokenised those prompts to get 1000 rows of data. However, this took hours as Qwen was generating Chinese characters so I had to ensure the data coming out of it was good in the end.
 
 
