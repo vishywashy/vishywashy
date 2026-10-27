@@ -28,7 +28,7 @@ I then decided to connect this to to my ```langgraph``` agents (Gmail agent and 
 
 ---
 
-    **Arduino-Agent-System**: I decided to bridge the gap between software and hardware as a result I connected an LED and an ultrasonic sensor (HCSR04) via a breadboard to the arduino.
+&nbsp;&nbsp;&nbsp;&nbsp;**Arduino-Agent-System**: I decided to bridge the gap between software and hardware as a result I connected an LED and an ultrasonic sensor (HCSR04) via a breadboard to the arduino.
 
 I then coded that with the arduino IDE to map different inputs from the serial monitor to do different actions.
 So when it received to turn on the LED it turned it on. I then programmed it to calculate the time it takes for the signal to go and come back and used that to calculate the distance halfing it by multiplying that by the speed of sound. I used that to estimate the distance from one point to the sensor.
