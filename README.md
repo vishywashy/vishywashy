@@ -26,7 +26,7 @@ I then decided to connect this to to my ```langgraph``` agents (Gmail agent and 
 - **Can Create events** - It can schedule events ahead of time
 - **Delete events** - Deletes any events provided you know the name of the event.
 
----
+
 - **Arduino-Agent-System**: I decided to bridge the gap between software and hardware as a result I connected an LED and an ultrasonic sensor (HCSR04) via a breadboard to the arduino.
 
 I then coded that with the arduino IDE to map different inputs from the serial monitor to do different actions.
