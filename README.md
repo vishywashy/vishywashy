@@ -4,16 +4,32 @@ Hi I'm **Vishywashy**. A developer who is interested in the field of AI and robo
 
 ---
 
-## 💻 Tech Stack & Tools
+### Backend & AI developement
 
-### Languages & Core ML
-![Python](https://shields.io) ![PyTorch](https://shields.io) ![LangGraph](https://shields.io)
+![Python](https://img.shields.io/badge/Python-3.13.14-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=for-the-badge&logo=langchain&logoColor=white)
+
+<br><br>
 
 ### Hardware & Electronics
-![Arduino](https://shields.io)
+
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+
+<br><br>
 
 ### Web Frontend Integration
-![HTML5](https://shields.io) ![CSS3](https://shields.io) ![JavaScript](https://shields.io)
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+<br><br>
+
+### Version Control
+
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
 
 ---
 
@@ -30,8 +46,8 @@ The projects I've built are:
 
 
 - The entire reason I chose an ML model in the first place was because I identified a flaw in LLMs. 
-- When a system architecture contains multiple AI agents strung together, LLMs tend to hallucinate, resulting in infinite loops over tools.
-- An ML model identifies intent and routes to it without causing any loops making them incredibly efficient.
+- When multiple AI agents work together, its easy for AI agents to be caught up in an infinite loop. 
+- As a result, I used a dedicated intent-classification model that identifies the user's request first and routes it to the most appropriate agent, making the system more efficient and reliable.
 
 
 I then decided to connect this to to my ```langGraph``` agents (Gmail agent and Google Calendar agent). 
