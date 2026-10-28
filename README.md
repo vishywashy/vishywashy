@@ -4,6 +4,19 @@ Hi I'm **Vishywashy**. A developer who is interested in the field of AI and robo
 
 ---
 
+## 💻 Tech Stack & Tools
+
+### Languages & Core ML
+![Python](https://shields.io) ![PyTorch](https://shields.io) ![LangGraph](https://shields.io)
+
+### Hardware & Electronics
+![Arduino](https://shields.io)
+
+### Web Frontend Integration
+![HTML5](https://shields.io) ![CSS3](https://shields.io) ![JavaScript](https://shields.io)
+
+---
+
 ## Projects
 
 The projects I've built are:
@@ -17,7 +30,7 @@ The projects I've built are:
 
 
 - The entire reason I chose an ML model in the first place was because I identified a flaw in LLMs. 
-- When a system of AI agents becomes complicated. LLM's tend to hallucinate as a result infinitely loop over tools. 
+- When a system architecture contains multiple AI agents strung together, LLMs tend to hallucinate, resulting in infinite loops over tools.
 - An ML model identifies intent and routes to it without causing any loops making them incredibly efficient.
 
 
