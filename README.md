@@ -36,9 +36,9 @@ I then decided to connect this to to my ```langGraph``` agents (Gmail agent and 
 
 ---
 
-&nbsp;&nbsp;&nbsp;&nbsp;**[Arduino-Agent-System](https://github.com/vishywashy/Arduino-Agent-System)**: I decided to bridge the gap between software and hardware as a result I connected an LED and an ultrasonic sensor (HCSR04) via a breadboard to the arduino.
+&nbsp;&nbsp;&nbsp;&nbsp;**[Arduino-Agent-System](https://github.com/vishywashy/Arduino-Agent-System)**: I decided to bridge the gap between software and hardware as a result I connected an LED and an ultrasonic sensor (HCSR04) via a breadboard to the Arduino.
 
-I then coded that with the arduino IDE to map different inputs from the serial monitor to do different actions.
+I then coded that with the Arduino IDE to map different inputs from the serial monitor to do different actions.
 So when it received the command to turn on the LED it turned it on. 
 - I then programmed it to calculate the time it takes for the signal to go and come back and used that to calculate the distance by halfing it by multiplying that by the speed of sound. I used that to estimate the distance from one point to the sensor.
 
@@ -46,7 +46,7 @@ So when it received the command to turn on the LED it turned it on.
 
 On top of all this I also added some web automation with ```pywhatkit``` allowing it to:
 - Play youtube videos
-- Send whatsapp messages
+- Send WhatsApp messages
 - search the web
 
 ---
