@@ -69,7 +69,7 @@ I then decided to connect this to to my ```langGraph``` agents (Gmail agent and 
 
 I then coded that with the Arduino IDE to map different inputs from the serial monitor to do different actions.
 So when it received the command to turn on the LED it turned it on. 
-- I then programmed it to calculate the time it takes for the signal to go and come back and used that to calculate the distance by halfing it by multiplying that by the speed of sound. I used that to estimate the distance from one point to the sensor.
+- I then programmed it to calculate the time it takes for the signal to go and come back and used that to calculate the distance by halving it by multiplying that by the speed of sound. I used that to estimate the distance from one point to the sensor.
 
 - I then connected this to my AI agent and got my AI agent to parse inputs to the serial monitor allowing my circuit board to be controlled by my AI.
 
